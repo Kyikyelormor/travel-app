@@ -2,6 +2,40 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+.header_list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--1st, #212832);
+  font-family: Google Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 47px 110px 42px 140.92px;
+}
+
+
+#logo{
+  width: 114.912px;
+  height: 33.994px;
+  flex-shrink: 0;
+}
+
+.navhead{
+width: 60%;
+justify-content: space-between;
+align-items: center;
+display: flex;
+}
+
+#Sign{
+  width: 102px;
+  height: 40px;
+  flex-shrink: 0; 
+
   .Travel{
     display: inline-flex;
     padding-left: 300px;
@@ -45,7 +79,5 @@ img.design{z-index: -1;
   position: relative;
 left: 230px;
 top: -270px;
-
-   
 
 }
